@@ -1,0 +1,231 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6" pages="3">
+  <diagram name="Page-1" id="5pbBahHW2TA4nfHpn3o5">
+    <mxGraphModel dx="1426" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MlXtRz-5NbviLputiM5u-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;GLOBAL CONFIG&lt;/div&gt;int max_football_games[10];&lt;div&gt;int plays_of_week = 0;&lt;br&gt;&lt;div&gt;int goals_in_game = 0;&lt;/div&gt;&lt;div&gt;int assistants_in_game = 0;&lt;/div&gt;&lt;div&gt;int saves_in_game = 0;&lt;/div&gt;&lt;div&gt;int goal_points = 100;&lt;/div&gt;&lt;div&gt;int assistants_points = 50;&lt;/div&gt;&lt;div&gt;int saves_points = 75;&lt;/div&gt;&lt;div&gt;int plays_count = 0;&lt;br&gt;int value_zero = 0;&lt;/div&gt;&lt;div&gt;int points_of_game (int goals, int assistants, int saves);&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="310" width="280" x="60" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eobiTe01tnHb8FY9_qt5" name="Page-2">
+    <mxGraphModel dx="613" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="583zsUNPyvohh0C_LzhT-3" edge="1" parent="1" source="583zsUNPyvohh0C_LzhT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="583zsUNPyvohh0C_LzhT-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="583zsUNPyvohh0C_LzhT-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="start" vertex="1">
+          <mxGeometry height="50" width="80" x="183.92000000000002" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFMx4MzRpYU0FxiatGVJ-1" edge="1" parent="1" source="583zsUNPyvohh0C_LzhT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="223.92000000000002" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="583zsUNPyvohh0C_LzhT-2" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="call GLOBAL CONFIG" vertex="1">
+          <mxGeometry height="50" width="180" x="133.92000000000002" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fB43R6p8P9vH98uPX52h-2" edge="1" parent="1" source="fB43R6p8P9vH98uPX52h-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.834;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.92000000000002" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fB43R6p8P9vH98uPX52h-1" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;Insert quantity of plays in the week&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="173.92000000000002" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cID1owp1jx3qJX7AYjq4-1" edge="1" parent="1" source="fB43R6p8P9vH98uPX52h-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.92000000000002" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fB43R6p8P9vH98uPX52h-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&amp;amp;plays_of_week;" vertex="1">
+          <mxGeometry height="60" width="120" x="173.92000000000002" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="b5KvZF59-AdTsDKD5c7y-1" edge="1" parent="1" source="cID1owp1jx3qJX7AYjq4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.92" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b5KvZF59-AdTsDKD5c7y-4" edge="1" parent="1" source="cID1owp1jx3qJX7AYjq4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="b5KvZF59-AdTsDKD5c7y-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.92000000000002" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cID1owp1jx3qJX7AYjq4-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="plays_of_week &amp;gt; max_football_games" vertex="1">
+          <mxGeometry height="80" width="140" x="163.92000000000002" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="b5KvZF59-AdTsDKD5c7y-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="313.92" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="b5KvZF59-AdTsDKD5c7y-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="153.92000000000002" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="b5KvZF59-AdTsDKD5c7y-6" edge="1" parent="1" source="b5KvZF59-AdTsDKD5c7y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.501;exitY=0.823;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="233.92000000000002" y="810" />
+              <mxPoint x="109.92" y="810" />
+              <mxPoint x="109.92" y="380" />
+            </Array>
+            <mxPoint x="233.92000000000002" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b5KvZF59-AdTsDKD5c7y-5" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;The limit has been exceeded please insert the values again&quot;" vertex="1">
+          <mxGeometry height="90" width="120" x="173.92" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="JNoZyCNHLv--MA8rPZQ7-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="383.92" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="JNoZyCNHLv--MA8rPZQ7-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2" vertex="1">
+          <mxGeometry height="30" width="60" x="383.92" y="670" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CZU2JsS0fRPJjsjti7qn" name="Page-3">
+    <mxGraphModel dx="613" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tkOvzy191ldT7nsnElaL-4" edge="1" parent="1" source="tkOvzy191ldT7nsnElaL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkOvzy191ldT7nsnElaL-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="170" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkOvzy191ldT7nsnElaL-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-2" edge="1" parent="1" source="tkOvzy191ldT7nsnElaL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.9999999999999" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tkOvzy191ldT7nsnElaL-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="plays_count = 0;&amp;nbsp; plays_count &amp;lt; plays_of_week; ++plays_count" vertex="1">
+          <mxGeometry height="80" width="280" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-7" edge="1" parent="1" source="7yUDb9vWx-tb9VfEczWR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.499;exitY=0.848;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-8" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;Insert the goals in game&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-9" edge="1" parent="1" source="7yUDb9vWx-tb9VfEczWR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&amp;amp;goals_in_game" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-15" edge="1" parent="1" source="7yUDb9vWx-tb9VfEczWR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.499;exitY=0.845;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-16" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;Insert the saves in game&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="670" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-17" edge="1" parent="1" source="7yUDb9vWx-tb9VfEczWR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="510.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&amp;amp;saves_in_game" vertex="1">
+          <mxGeometry height="60" width="140" x="660" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-1" edge="1" parent="1" source="dt-_Sp4-a0Y5uJCUGtAu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-3" edge="1" parent="1" source="7yUDb9vWx-tb9VfEczWR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.9999999999999" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7yUDb9vWx-tb9VfEczWR-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="goals_in_game &amp;gt;= value_zero" vertex="1">
+          <mxGeometry height="80" width="130" x="135" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-5" edge="1" parent="1" source="dt-_Sp4-a0Y5uJCUGtAu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dt-_Sp4-a0Y5uJCUGtAu-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="390" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-8" edge="1" parent="1" source="dt-_Sp4-a0Y5uJCUGtAu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.493;exitY=0.845;exitDx=0;exitDy=0;exitPerimeter=0;" target="dt-_Sp4-a0Y5uJCUGtAu-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.9999999999999" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-7" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;The value entered is negative&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-10" edge="1" parent="1" source="dt-_Sp4-a0Y5uJCUGtAu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.602;exitY=0.785;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212" y="840" />
+              <mxPoint x="210" y="840" />
+              <mxPoint x="210" y="910" />
+              <mxPoint x="100" y="910" />
+              <mxPoint x="100" y="260" />
+            </Array>
+            <mxPoint x="139.9999999999999" y="840.0034782608698" as="sourcePoint" />
+            <mxPoint x="200" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-9" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;Please try again insert correct values&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-12" edge="1" parent="1" source="dt-_Sp4-a0Y5uJCUGtAu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-15" edge="1" parent="1" source="dt-_Sp4-a0Y5uJCUGtAu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="970.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="assistants_in_game &amp;gt;= value_zero" vertex="1">
+          <mxGeometry height="80" width="130" x="325" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-16" edge="1" parent="1" source="7yUDb9vWx-tb9VfEczWR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dt-_Sp4-a0Y5uJCUGtAu-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="550" as="sourcePoint" />
+            <mxPoint x="390" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-6" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;Insert the assistants in game&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-18" edge="1" parent="1" source="dt-_Sp4-a0Y5uJCUGtAu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dt-_Sp4-a0Y5uJCUGtAu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dt-_Sp4-a0Y5uJCUGtAu-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&amp;amp;assistants_in_game" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
