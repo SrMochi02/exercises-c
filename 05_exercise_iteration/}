@@ -20,7 +20,7 @@ int main (void) {
 		for(start_value = 0; start_value <= limit_value; start_value += divisor_value) {
 
 
-			printf("Multiple found:%d\n", start_value);
+			printf("The dividend number:%d\n", start_value);
 			printf("The divisor:%d\n", divisor_value);
 		}
 	}
